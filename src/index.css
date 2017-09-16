@@ -3,6 +3,10 @@ html,body {
     background: black !important;
 }
 
+ul {
+    margin-left: 0px;
+    padding-left: 0px;
+}
 
 /** Home **/
 .home-container {
@@ -11,11 +15,11 @@ html,body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 1s; /* Firefox < 16 */
-    -ms-animation: fadein 1s; /* Internet Explorer */
-    -o-animation: fadein 1s; /* Opera < 12.1 */
-    animation: fadein 1s;
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 3s; /* Firefox < 16 */
+    -ms-animation: fadein 3s; /* Internet Explorer */
+    -o-animation: fadein 3s; /* Opera < 12.1 */
+    animation: fadein 3s;
 }
 
 .home-insideHeader {
@@ -36,11 +40,11 @@ html,body {
 }
 
 .home-links {
-    -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 5s; /* Firefox < 16 */
-    -ms-animation: fadein 5s; /* Internet Explorer */
-    -o-animation: fadein 5s; /* Opera < 12.1 */
-    animation: fadein 5s;
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 4s; /* Firefox < 16 */
+    -ms-animation: fadein 4s; /* Internet Explorer */
+    -o-animation: fadein 4s; /* Opera < 12.1 */
+    animation: fadein 4s;
 }
 
 .home-header {
@@ -78,7 +82,17 @@ html,body {
     margin-right: 5px;
 }
 
+.subheader{
+    font-weight: 300;
+    font-family: "Helvetica Neue",sans-serif;
+    font-style: normal;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+}
 
+.white {
+    color: white;
+}
 
 /** Animations **/
 @keyframes fadein {
